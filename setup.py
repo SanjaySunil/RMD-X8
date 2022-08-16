@@ -18,7 +18,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 # Fields marked as "Optional" may be commented out.
 
 setup(
-    name="rmd-x8",  # Required
+    name="rmd_x8",  # Required
     version="1.0.0",  # Required
     description="Python library for RMD-X8 and RMD-X8 Pro servo motor actuators.",  # Optional
     long_description=long_description,  # Optional
@@ -47,7 +47,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3 :: Only",
     ],
-    keywords="rmd-x8, motor, servo, actuator, rmdx8",  # Optional
+    keywords="rmd_x8, motor, servo, actuator, rmdx8",  # Optional
     package_dir={"": "src"},  # Optional
     packages=find_packages(where="src"),  # Required
     # Specify which Python versions you support. In contrast to the
@@ -83,7 +83,7 @@ setup(
     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
         "console_scripts": [
-            "sample=sample:main",
+            "rmd_x8=main",
         ],
     },
     # List additional URLs that are relevant to your project as a dict.
