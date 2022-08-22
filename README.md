@@ -11,7 +11,7 @@ pip install rmd_x8
 ```py
 from rmd_x8 import RMD_X8
 
-# Setup a new RMD_X8 motor (motor identifier`]() 0x141)
+# Setup a new RMD_X8 motor with its identifier.
 robot = RMD_X8(0x141)
 
 # Read the motor's current PID parameters.
