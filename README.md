@@ -1,6 +1,6 @@
 # RMD-X8 Python Library
 
-> Python library for complete control over RMD-X8 and RMD-X8 Pro motors.
+> Python library for complete control over RMD-X8 and RMD-X8 Pro motors
 
 ## Install
 ```sh
